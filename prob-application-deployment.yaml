@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prob-test-app
+  labels:
+    app: prob-test-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: prob-test-app
+  template:
+    metadata:
+      labels:
+        app: prob-test-app
+    spec:
+      containers:
+      - name: prob-test-app
+        image: hiparthapanda297/prob-test-app:v3
+        ports:
+        - containerPort: 8080
+
+        readinessProbe:
+            httpGet:
+              path: /health-check
+              port: 8080
+            initialDelaySeconds: 15
+            periodSeconds: 10
+
+        livenessProb:
+          httpGet:
+            path: /Service-Health
+            port: 8080
+          initialDelaySeconds: 15
+          periodSeconds: 10
+
+        startupProbe:
+            httpGet:
+              path: /index
+              port: 8080
+            failureThreshold: 30
+            periodSeconds: 10
+
+        env:
+            - name: PORT
+              value: "8080"
