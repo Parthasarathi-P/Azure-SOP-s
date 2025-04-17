@@ -3,3 +3,5 @@
 
 1. Azure Virtual desktop SOP - in this repository
     Azure Virtual desktop (creation, user assign and access)
+2. Authentication on webapp
+   Code less authentication using azure app service.docx
