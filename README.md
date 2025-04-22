@@ -16,3 +16,5 @@
    4. Stories__Azure_Key_Vault_Service_
    5. Stories_9___Create_a_AKS__with_GUI_and_Deploy_LMS.
    6. Terraform-Murali
+
+5. lms backend deployment on AKS and stories 9 all deployment yamls and entire repo forked from mubeen is stored on hiparthapanda github.         repo name -lms-public-yamls
