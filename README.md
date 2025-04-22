@@ -5,8 +5,9 @@
     Azure Virtual desktop (creation, user assign and access)
 2. Authentication on webapp
    Code less authentication using azure app service.docx
+   Azure SOP Repo
 
-3. LMS aks deployment
+4. LMS aks deployment
    file mubeen and murali's notes along with murali's terraform moba extreme
    file names
    1. AKS-ACR-lms-backend deployment Murali
