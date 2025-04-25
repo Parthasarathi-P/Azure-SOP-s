@@ -18,3 +18,6 @@
    6. Terraform-Murali
 
 5. lms backend deployment on AKS and stories 9 all deployment yamls and entire repo forked from mubeen is stored on hiparthapanda github.         repo name -lms-public-yamls
+
+6. kubernetes cluster using azure vm ubuntu 24.4 on this account in AKS-docs
+    Self-hosted cluster in azure.docx
