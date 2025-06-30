@@ -21,3 +21,7 @@
 
 6. kubernetes cluster using azure vm ubuntu 24.4 on this account in AKS-docs
     Self-hosted cluster in azure.docx
+
+7. Kubernetes cluster version upgrade (master and worker node)
+   Same github -- Devops repository
+    Kubernetes virsion ugrade - kodekloud.docx
